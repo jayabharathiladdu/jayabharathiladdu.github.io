@@ -7,44 +7,45 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body{
-            font-family: "Comic Sans MS",sans-serif;
-            margin: 0;
+            font-family: "Old English Text MT", sans-serif;
         }
         header{
             background-image: url("../img/background.jpg");
+            text-align: center;
             color: white;
             padding: 10px;
-            text-align: center;
         }
         nav{
-            background-color: black;
+            background-color: brown;
         }
         nav ul{
             list-style-type: none;
-            padding: 0;
-            margin: 0;
             overflow: hidden;
+            margin: 0;
         }
         nav ul li{
             float: left;
         }
         nav ul li a{
             text-decoration: none;
-            color: white;
-            padding: 12px 25px;
             display: block;
-            font-size: 18px;
+            padding: 20px 25px;
+            color: white;
+            font-size: 15px;
+
         }
         nav ul li a:hover{
-            background-color: #a39372;
+            background-color: #da2d87;
         }
         nav ul li a.active{
-            background-color: darkred;
+            background-color: cornflowerblue;
         }
         aside{
+            font-style: italic;
             float: left;
-            width: 200px;
+            width: 150px;
             text-align: center;
+            background-color: red;
         }
         aside ul{
             padding: 0;
@@ -52,188 +53,189 @@
         }
         aside ul li a{
             text-decoration: none;
-            color: black;
-            padding: 14px 25px;
+            color: white;
+            padding:26px 25px;
             display: block;
         }
         aside ul li a:hover{
-            background-color: #a39372;
-            color: white;
+            background-color: orchid;
         }
         section{
-            border-left: 2px solid darkred;
-            margin-left: 200px;
+            border-left: 2px solid deepskyblue;
+            margin-left: 150px;
             padding: 10px;
         }
         section details{
             background: white url("../img/background.jpg") no-repeat fixed bottom;
             color: white;
-            padding: 10px;
-            margin: 5px;
+            padding: 15px;
+            margin: 20px;
+            font-family: "Comic Sans MS", sans-serif;
             border-radius: 50px;
         }
         summary{
             outline: none;
         }
         footer{
-            background-image: url("../img/background.jpg");
-            padding: 10px;
-            color: white;
             text-align: center;
-            box-shadow:  0 0 15px black;
+            padding: 10px;
+            margin: 5px;
+            background-image: url("../img/background.jpg");
+            box-shadow: 0 0 15px black;
+            color: white;
         }
     </style>
 </head>
 <body>
-
-    <!-- Main Heading -->
-    <header>
-        <h1><i class="fa fa-snowflake-o fa-spin"></i> UiBrains Technologies <i class="fa fa-snowflake-o fa-spin"></i></h1>
-        <p>The Smart Way Of Learning</p>
-    </header>
-
-    <!-- Main Navigation -->
-    <nav>
-        <ul>
-            <li>
-                <a href="#" class="active">
-                   <i class="fa fa-home"></i> Home</a>
-            </li>
-            <li>
-                <a href="#">
-                   <i class="fa fa-id-card"></i> About Us</a>
-            </li>
-            <li>
-                <a href="#">
-                   <i class="fa fa-envelope"></i> Contact Us</a>
-            </li>
-            <li>
-                <a href="#">
-                   <i class="fa fa-graduation-cap"></i> Careers</a>
-            </li>
-            <li>
-                <a href="#">
-                   <i class="fa fa-book"></i> Courses</a>
-            </li>
-            <li>
-                <a href="#">
-                   <i class="fa fa-user-circle"></i> Internship</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Side Bar -->
-    <aside>
-        <ul>
-            <li>
-                <a href="#">
-                   <i class="fa fa-book"></i> HTML</a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-code"></i> CSS</a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-book"></i> JavaScript</a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-code"></i> JQuery</a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-book"></i> AJAX</a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-code"></i> Bootstrap</a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-book"></i> Angular JS</a>
-            </li>
-        </ul>
-    </aside>
-
-    <!-- Main Content  Section -->
-    <section>
-
-        <!-- HTML -->
-        <details>
-            <summary>HTML</summary>
-            <div>
-                <h3>HTML</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur cupiditate ipsam laudantium quo. Aspernatur culpa, cupiditate dignissimos doloribus, fugiat harum maiores neque possimus quidem quis sit suscipit. Quae, tenetur voluptatum! Cumque distinctio nesciunt suscipit voluptas voluptatem. Aliquam aspernatur corporis harum iusto minima! Ducimus ex ipsum laborum laudantium nostrum ullam?</p>
-            </div>
-        </details>
-
-        <!-- CSS -->
-        <details>
-            <summary>CSS</summary>
-            <div>
-                <h3>CSS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur cupiditate ipsam laudantium quo. Aspernatur culpa, cupiditate dignissimos doloribus, fugiat harum maiores neque possimus quidem quis sit suscipit. Quae, tenetur voluptatum! Cumque distinctio nesciunt suscipit voluptas voluptatem. Aliquam aspernatur corporis harum iusto minima! Ducimus ex ipsum laborum laudantium nostrum ullam?</p>
-            </div>
-        </details>
-
-        <!-- JavaScript -->
-        <details>
-            <summary>JavaScript</summary>
-            <div>
-                <h3>JavaScript</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur cupiditate ipsam laudantium quo. Aspernatur culpa, cupiditate dignissimos doloribus, fugiat harum maiores neque possimus quidem quis sit suscipit. Quae, tenetur voluptatum! Cumque distinctio nesciunt suscipit voluptas voluptatem. Aliquam aspernatur corporis harum iusto minima! Ducimus ex ipsum laborum laudantium nostrum ullam?</p>
-            </div>
-        </details>
-
-        <!-- JQuery -->
-        <details>
-            <summary>JQuery</summary>
-            <div>
-                <h3>JQuery</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur cupiditate ipsam laudantium quo. Aspernatur culpa, cupiditate dignissimos doloribus, fugiat harum maiores neque possimus quidem quis sit suscipit. Quae, tenetur voluptatum! Cumque distinctio nesciunt suscipit voluptas voluptatem. Aliquam aspernatur corporis harum iusto minima! Ducimus ex ipsum laborum laudantium nostrum ullam?</p>
-            </div>
-        </details>
-
-        <!-- AJAX -->
-        <details>
-            <summary>AJAX</summary>
-            <div>
-                <h3>AJAX</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur cupiditate ipsam laudantium quo. Aspernatur culpa, cupiditate dignissimos doloribus, fugiat harum maiores neque possimus quidem quis sit suscipit. Quae, tenetur voluptatum! Cumque distinctio nesciunt suscipit voluptas voluptatem. Aliquam aspernatur corporis harum iusto minima! Ducimus ex ipsum laborum laudantium nostrum ullam?</p>
-            </div>
-        </details>
-
-        <!-- Bootstrap -->
-        <details>
-            <summary>Bootstrap</summary>
-            <div>
-                <h3>Bootstrap</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur cupiditate ipsam laudantium quo. Aspernatur culpa, cupiditate dignissimos doloribus, fugiat harum maiores neque possimus quidem quis sit suscipit. Quae, tenetur voluptatum! Cumque distinctio nesciunt suscipit voluptas voluptatem. Aliquam aspernatur corporis harum iusto minima! Ducimus ex ipsum laborum laudantium nostrum ullam?</p>
-            </div>
-        </details>
-
-        <!-- Angular JS -->
-        <details>
-            <summary>Angular JS</summary>
-            <div>
-                <h3>Angular JS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequatur cupiditate ipsam laudantium quo. Aspernatur culpa, cupiditate dignissimos doloribus, fugiat harum maiores neque possimus quidem quis sit suscipit. Quae, tenetur voluptatum! Cumque distinctio nesciunt suscipit voluptas voluptatem. Aliquam aspernatur corporis harum iusto minima! Ducimus ex ipsum laborum laudantium nostrum ullam?</p>
-            </div>
-        </details>
-
-    </section>
-
-    <!-- Main Footer -->
-    <footer>
-        <h3>Copyright &copy; 2018 , UiBrains Technologies</h3>
-        <p>All Rights Reserved</p>
-        <p>Developed & Maintained by
-            <a href="https://github.com/thenaveensaggam" target="_blank">
-                Naveen Saggam
+<!-- Main Heading -->
+<header>
+    <h1><i class="fa fa-snowflake-o fa-spin"></i>UiBrains Technologies<i class="fa fa-snowflake-o fa-spin"></i></h1>
+    <p>The Smart Way of Learning</p>
+</header>
+<!-- Main Navigation -->
+<nav>
+    <ul>
+        <li>
+            <a href="#" class="active">
+                <i class="fa fa-home">Home</i>
             </a>
-        </p>
-    </footer>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-id-card">About Us</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-envelope">Contact Us</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-graduation-cap">Careers</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-book">Courses</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-user-circle">Internship</i>
+            </a>
+        </li>
+    </ul>
+</nav>
+    <!--Side Bar -->
+<aside>
+    <ul>
+        <li>
+            <a href="#">
+                <i class="fa fa-book">HTML</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-code">CSS</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-book">JAVASCRIPT</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-code">AJAX</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-book">JQUERY</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-code">BOOTSTRAP</i>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-book">ANGULAR JS</i>
+            </a>
+        </li>
+    </ul>
+</aside>
+<!-- Main Content Section -->
+<section>
+    <!--HTML-->
+    <details>
+        <summary>HTML</summary>
+        <div>
+            <h3>HTML</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ex nisi quo reiciendis! Cum deleniti doloremque expedita illum, incidunt inventore ipsam nobis provident quos repellendus? Corporis enim eum incidunt reiciendis. A, accusantium eveniet exercitationem facilis harum nam officiis quis repellat repellendus sunt. Aspernatur, mollitia, repellendus. Minima quae quis reprehenderit ullam.</p>
+        </div>
+    </details>
+
+<!--CSS-->
+    <details>
+        <summary>CSS</summary>
+        <div>
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ex nisi quo reiciendis! Cum deleniti doloremque expedita illum, incidunt inventore ipsam nobis provident quos repellendus? Corporis enim eum incidunt reiciendis. A, accusantium eveniet exercitationem facilis harum nam officiis quis repellat repellendus sunt. Aspernatur, mollitia, repellendus. Minima quae quis reprehenderit ullam.</p>
+        </div>
+    </details>
+<!--JAVASCRIPT-->
+    <details>
+        <summary>JAVASCRIPT</summary>
+        <div>
+            <h3>JAVASCRIPT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ex nisi quo reiciendis! Cum deleniti doloremque expedita illum, incidunt inventore ipsam nobis provident quos repellendus? Corporis enim eum incidunt reiciendis. A, accusantium eveniet exercitationem facilis harum nam officiis quis repellat repellendus sunt. Aspernatur, mollitia, repellendus. Minima quae quis reprehenderit ullam.</p>
+        </div>
+    </details>
+<!--AJAX-->
+    <details>
+        <summary>AJAX</summary>
+        <div>
+            <h3>AJAX</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ex nisi quo reiciendis! Cum deleniti doloremque expedita illum, incidunt inventore ipsam nobis provident quos repellendus? Corporis enim eum incidunt reiciendis. A, accusantium eveniet exercitationem facilis harum nam officiis quis repellat repellendus sunt. Aspernatur, mollitia, repellendus. Minima quae quis reprehenderit ullam.</p>
+        </div>
+    </details>
+<!--JQUERY-->
+    <details>
+        <summary>JQUERY</summary>
+        <div>
+            <h3>JQUERY</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ex nisi quo reiciendis! Cum deleniti doloremque expedita illum, incidunt inventore ipsam nobis provident quos repellendus? Corporis enim eum incidunt reiciendis. A, accusantium eveniet exercitationem facilis harum nam officiis quis repellat repellendus sunt. Aspernatur, mollitia, repellendus. Minima quae quis reprehenderit ullam.</p>
+        </div>
+    </details>
+    <!--BOOTSTRAP-->
+    <details>
+        <summary>BOOTSTRAP</summary>
+        <div>
+            <h3>BOOTSTRAP</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ex nisi quo reiciendis! Cum deleniti doloremque expedita illum, incidunt inventore ipsam nobis provident quos repellendus? Corporis enim eum incidunt reiciendis. A, accusantium eveniet exercitationem facilis harum nam officiis quis repellat repellendus sunt. Aspernatur, mollitia, repellendus. Minima quae quis reprehenderit ullam.</p>
+        </div>
+    </details>
+<!--ANGULAR JS-->
+    <details>
+        <summary>ANGULAR JS</summary>
+        <div>
+            <h3>ANGULAR JS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ex nisi quo reiciendis! Cum deleniti doloremque expedita illum, incidunt inventore ipsam nobis provident quos repellendus? Corporis enim eum incidunt reiciendis. A, accusantium eveniet exercitationem facilis harum nam officiis quis repellat repellendus sunt. Aspernatur, mollitia, repellendus. Minima quae quis reprehenderit ullam.</p>
+        </div>
+    </details>
+</section>
+<footer>
+    <h3>Copyright &copy; 2018 , UiBrains Technologies</h3>
+    <p>All Rights Reserved</p>
+    <p>Developed and Maintained By
+    <a href="https://github.com/jayabharathiladdu" target="_blank">
+        jayabharathi
+    </a>
+    </p>
+</footer>
 
 </body>
 </html>
